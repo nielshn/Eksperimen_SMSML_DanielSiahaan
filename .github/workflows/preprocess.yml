@@ -43,6 +43,7 @@ jobs:
 
       - name: Debug Git User
         run: git config --list
+
       - name: Commit and Push Preprocessed Data
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
